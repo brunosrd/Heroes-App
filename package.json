@@ -28,8 +28,11 @@
   },
   "homepage": "https://github.com/elylucas/cypress-heroes#readme",
   "devDependencies": {
+    "@types/cypress": "^1.1.3",
+    "@types/node": "^22.5.4",
     "concurrently": "^7.6.0",
-    "rimraf": "^4.1.0"
+    "rimraf": "^4.1.0",
+    "typescript": "^5.5.4"
   },
   "prisma": {
     "schema": "server/prisma/schema.prisma"
